@@ -1,0 +1,123 @@
+<html>
+<head>
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header_logo">
+                        <a><span>Grace A Beauty Collection</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <nav class="header_menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="women.html">Women's</a></li>
+                            <li><a href="men.html">Men's</a></li>
+                            <li><a href="product.html">Product</a></li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li class="active"><a>Feed Back</a></li>
+                    
+
+                        </ul>
+                    </nav>
+                </div> 
+            </div>
+        </div>
+    </header>
+
+<br>
+    <center> <h1 style="color:rgb(25, 0, 255);">Feed Back Form : </h1>   </center> <br>
+<div class="container">    
+  <form action="admin/insert.php" method="post">   
+    <input type="hidden" name="asd" value="3"> 
+    <div class="row">    
+      <div class="col-25">    
+        <label for="fname">First Name </label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">    
+      </div>    
+    </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="lname">Last Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">    
+      </div>    
+    </div>    
+    <div class="row">    
+        <div class="col-25">    
+          <label for="email">Mail Id</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="email" id="email" name="mailid" placeholder="Your mail id..">    
+        </div>    
+      </div>    
+    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="feed_back">Feedback</label>    
+      </div>    
+      <div class="col-75">    
+        <textarea id="subject" name="text" placeholder="Write something.." style="height:200px"></textarea>    
+      </div>    
+    </div>    
+    <div class="row">    
+      <input type="submit" value="Submit">    
+    </div>    
+  </form>    
+</div>    
+
+    
+
+
+
+
+
+
+
+
+
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2> QUICK LINKS </h2>
+                <a href="#">About</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a> 
+            </div>
+            <div class="footer-heading footer-2">
+                 <h2>ACCOUNTS  </h2>
+                 <a href="#">My Account</a>
+                 <a href="#">Order Tracking</a>
+                 <a href="#">Whishlist</a>
+ 
+             </div>
+             <div class="footer-heading footer-3">
+                 <h2>SUPPORT </h2>
+                 <a href="#">Terms And Conditions</a>
+                 <a href="#">Privacy Policy</a>
+                 <a href="#">24/7 Support</a>
+             </div>
+             <div class="footer-email-form">
+                 <h2> JOIN OUR SITE</h2>
+                 <input type="email"  placeholder="Enter your email address" id="footer-email">
+                 <input type="submit" value="Sign Up" id="footer-email-btn">
+             </div>
+        </div>
+    </div>
+    
+ 
+ 
+ </body>
+ 
+ 
+ </html>
